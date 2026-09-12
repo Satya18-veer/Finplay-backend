@@ -1,0 +1,16 @@
+{
+  "name": "financial-literacy-quiz-api",
+  "version": "1.0.0",
+  "description": "Express server using Gemini 1.5 Flash to generate Financial Literacy Quizzes every 30 minutes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3"
+  }
+}
